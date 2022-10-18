@@ -32,7 +32,7 @@ services:
   mysql:
     image: mysql:5.7
     command: --innodb-use-native-aio=0
-    container_name: db
+    container_name: mysql
     restart: always
     tty: true
     volumes: 
